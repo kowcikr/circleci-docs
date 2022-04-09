@@ -271,7 +271,7 @@ Using a private orb enables you to author an orb while ensuring the following:
 
 By choosing to use a private orb instead of a public orb, you also need to understand certain inherent limitations, which include:
 
-* You will be unable to use the `circleci config validate` command to validate your configuration. You may, however, use ond of the following options:
+* You will be unable to use the `circleci config validate` command to validate your configuration. You may, however, use one of the following options:
 
     * Paste the content of the orb into the `orbs` stanza of your configuration.
     * Use the `circleci config validate --org-slug <your-org-slug> <path/to/config.yml>` command to validate your configuration. The org slug is defined as `<your-VCS>/<your-org-name>`, for example, `gh/circleci`.
